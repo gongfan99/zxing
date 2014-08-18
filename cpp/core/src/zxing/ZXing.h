@@ -40,6 +40,7 @@ typedef bool boolean;
 #if defined(_WIN32) || defined(_WIN64)
 
 #include <float.h>
+#include <cmath>
 
 namespace zxing {
 inline bool isnan(float v) {return _isnan(v) != 0;}
